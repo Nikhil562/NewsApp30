@@ -11,7 +11,7 @@ export class News extends Component {
         category: 'general',
       }
 
-      static propTypes = {
+      static propTypes = {//The static keyword allows react to get the values of propTypes and defaultProps, without initializing your component.
         country: PropTypes.string,
         pageSize: PropTypes.number, 
         category: PropTypes.string,
